@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head> <title>Test page</title>
+	<style> 
+	tfoot {
+		background-color: teal;
+	}
+	table {
+		width: 35%;
+	}
+	table,th, td {
+		border: 1px solid black;
+	}
+	label {
+    cursor: default;
+}
+	
+	th {
+		
+		text-align: right;
+	}
+	.centerbuttons {
+		text-align: center;
+	}
+}
+	input[type="text"] {
+    width:100%;
+}
+input[type = "button"] {
+	width: 15%;
+	text-align: center;
+}
+.shortercell {
+	width: 10%;
+}
+.mediumcell {
+	width: 18%;
+}
+.bold {
+	
+	
+	font-weight: 800;
+}
+	</style>
+</head>
+<body>
+	<form>
+	<table>
+		<tfoot>
+			
+			<tr>
+				<td colspan = "2" class = "centerbuttons"><div><input type = "button" name = "Submit" value = "Submit" />  <input type = "reset" name = "Reset" value = "Clear the form" /> </div> </td>
+			</tr>
+
+		</tfoot>
+		<tr> 
+			<th > <label for = "Last Name"> Last Name </label> </th>
+			<td > <input type = "text" id = "Last Name" value = "Enter Last Name" /></td>
+		</tr>
+		<tr>
+			<th><label for = "First Name">First Name </label></th>
+			<td> <input type = "text" id =  "First Name" value = "Enter First Name" /> </td>
+		</tr>
+		<tr>
+			<th><label for = "Address">Address </label></th>
+			<td> <input type = "text" id = "Address" /></td>
+		</tr>
+		<tr>
+			<th> <label for = "City">City </label></th>
+			<td> <input type = "text" class = "mediumcell"  id = "City" /> <span class = "bold"><label for = "State">State </label></span> <input type = "text" class = "shortercell" id = "State"> </td>
+		</tr>
+		<tr> 
+			<th><label for = "ZIP/Post Code">ZIP/Post Code </label></th>
+			<td> <input type = "text" id = "ZIP/Post Code"/></td>
+		</tr>
+		<tr>
+			<th><label for = "Country">Country </label></th>
+			<td> <select  id = "Country" /> <option value = "Value 1" selected = "selected">Bulgaria </option> <option value = "Value 2"> Argentina </option> <option value = "Value 3"> Brazil </option></td>
+		</tr>
+		<tr> 
+			<th><label for = "Phone">Phone (country code, area code,number)</label></th>
+			<td>(+ <input type = "text" class = "shortercell" id = "Phone"/>) <input type = "text" class = "mediumcell" name = "number">-<input type = "text" class = "mediumcell" name = "number"/></td>
+		</tr>
+		<tr>
+			<th><label for = "email">E-Mail </label></th>
+			<td><input type="email" id = "email" required="true" pattern="[^ @]*@[^ @].[^ @]" size = "34" /></td>
+		</tr>
+		<tr> 
+		<th><label for = "birth month">Birth date </label></th>
+		<td><div class = "bold"><label for = "birth month">Month </label> <input type = "text" class = "shortercell" id = "birth month"/><label for = "birth day"> Day </label><input type = "text" class = "shortercell" id = "birth day"><label for = "birth year">Year(4digit) </label> <input type = "text" class = "mediumcell" id = "birth year"/></div></td> 
+		</tr>
+		<tr>
+			<th><label for = "gender">Gender </label></th>
+			<td><select id = "gender"/><option value = "Value 1" >Male </option> <option value = "Value 2"> Female </option> <option value = "Value 3"> Other </option> </select></td>
+		</tr>
+		<tr> 
+			<th><label for = "Summer 2017">Starting date </label></th>
+			<td> 
+				<input type = "radio" name = "startingDate" id = "Summer 2017" value = "Summer 2017"/> <label for = "Summer 2017">Summer 2017</label>
+				<input type = "radio" name = "startingDate" id = "Winter 2017" value = "Winter 2017" /> <label for = "Winter 2017">Winter 2017</label> </td>
+		</tr>
+		<tr>
+			<th><label for = "Comments/Questions" >Comments/Questions</label></th>
+			<td><input type = "text"  id = "Comments/Questions" />  </td>
+		</tr>
+		
+		</table>
+	</form>
+</body>
+</html>
