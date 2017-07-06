@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<title>Exercise 10</title>
+	<style>
+	table,td {
+		border-style: solid; 
+		border-width: 0.1mm;
+		border-color: skyblue;
+		padding: 1mm;
+		border-collapse: collapse;
+	}
+	input[type = "text"] {
+		width: 1.5cm;
+		margin: 0.1cm;
+
+	}
+	
+	.tdName {
+		width: 5cm;
+	}
+	.tdNumber {
+		width: 2.5cm;
+	}
+	
+	#selector {
+		width: 4cm;
+	}
+	
+
+	</style>
+</head>
+<body>
+<form>
+<table>
+<thead >
+	<tr>
+<td class = "tdNumber">Product ID</td>
+<td class = "tdName">Product Name</td>
+<td class = "tdNumber">Unit price </td>
+<td class = "tdNumber">Quantity per unit</td>
+<td class = "tdNumber">Units in stock</td>
+<td class = "tdNumber">Discount</td>
+</tr>
+<tr>
+<td> <span > <input type = "text"/> </span></td>
+<td><input type = "text" id = "selector" /></td>
+<td><input type = "text"/><input type="image" src="filter.png" alt = "next" width="20" height="20"/></td>
+<td><input type = "text"/></td>
+<td><input type = "text"/><input type="image" src="filter.png" alt = "next" width="20" height="20"/></td>
+<td><input type="checkbox" name="discount" /> <input type="image" src="filter.png" alt = "next" width="20" height="20"/></td>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan = "6"> <span><input type="image" src="Previous.png" alt = "next" width="20" height="20"/></span>
+<span>1 2 3 4 5 6 7 8 9 10</span> <span><input type="image" src="Next.png" alt = "next" width="20" height="20"/></span>&nbsp;&nbsp;&nbsp;
+<span>Page size: <select/> <option value = "10" selected = "selected">10 </option> <option value = "20"> 20 </option> <option value = "30"> 30 </option></span>
+</td>
+</tr>
+</tfoot>
+<tbody>
+	<tr>
+		<td>1</td>
+<td>TV</td>
+<td>500$</td>
+<td>20</td>
+<td>5</td>
+<td> <input type="checkbox" name="discount" /></td>
+</tr>
+<tr>
+	<td>1</td>
+<td>TV</td>
+<td>500$</td>
+<td>20</td>
+<td>5</td>
+<td> <input type="checkbox" name="discount" /></td>
+</tr>
+<tr>
+	<td>1</td>
+<td>TV</td>
+<td>500$</td>
+<td>20</td>
+<td>5</td>
+<td> <input type="checkbox" name="discount" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+</body>
+</html>
