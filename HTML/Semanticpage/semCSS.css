@@ -1,0 +1,16 @@
+header img {
+	width: 8%;
+	height: 1%;
+}
+header h1 {
+	text-align: center;
+	display: inline;
+	margin-left: 26%;
+}
+ul {
+	list-style-image: url("green.png");
+}
+table,td,th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
