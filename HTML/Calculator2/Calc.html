@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calcStyles.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li>View</li>
+<li>Edit</li>
+<li>Help</li>
+</ul>
+</nav>
+</header>
+<form>
+<input style = "text" id = "inputbar" value = "0"/> 
+</form>
+<section>
+<table id = "specialtable">
+<tr>
+<td>0001</td>
+<td>0001</td>
+<td>0001</td>
+<td>1001</td>
+<td>0001</td>
+<td>0001</td>
+<td>0101</td>
+<td>0001</td>
+</tr>
+<tr>
+<td colspan ="4" id = "specialcolor">43</td>
+<td colspan ="3" id = "specialcolor">88</td>
+<td colspan ="3" id = "specialcolor">32</td>
+</tr>
+<tr>
+<td>1001</td>
+<td>0001</td>
+<td>0001</td>
+<td>0001</td>
+<td>0001</td>
+<td>0001</td>
+<td>0000</td>
+<td>0001</td>
+</tr>
+<tr>
+<td colspan ="4" id = "specialcolor">12</td>
+<td colspan ="3" id = "specialcolor">69</td>
+<td colspan ="3" id = "specialcolor">27</td>
+</tr>
+</table>
+</section>
+<section id = "table1" >
+<form >
+
+<table class = "tables" >
+<tr>
+<td><input type = "radio" name = "selectNum" id = "b1"/> <label for = "b1">Hex</label></td>
+</tr>
+<tr>
+<td><input type = "radio" name = "selectNum" id = "b2"/> <label for = "b2">Dec</label> </td>
+</tr>
+<tr>
+<td><input type = "radio" name = "selectNum" id = "b3"/> <label for = "b3">Oct</label> </td>
+</tr>
+<tr>
+<td><input type = "radio" name = "selectNum" id = "b4"/> <label for = "b4">Bin</label> </td>
+</tr>
+</table>
+
+</form>
+<form>
+<table class = "tables" >
+<tr>
+<td><input type = "radio" name = "selectWord" id = "b12"/> <label for = "b12">Qword</label></td>
+</tr>
+<tr>
+<td><input type = "radio" name = "selectWord" id = "b22"/> <label for = "b22">Dword</label> </td>
+</tr>
+<tr>
+<td><input type = "radio" name = "selectWord" id = "b32"/> <label for = "b32">Word</label> </td>
+</tr>
+<tr>
+<td><input type = "radio" name = "selectWord" id = "b42"/> <label for = "b42">Byte</label> </td>
+</tr>
+</table>
+</form>
+</section>
+<section>
+<form>
+<table class = "inlinetable">
+<tr>
+<td><input type = "button" id = "specialbutton3"/></td>
+<td><input type = "button" value = "Mod" /></td>
+<td><input type = "button" value = "A" id = "specialbutton3" /></td>
+<td><input type = "button" value = "MC" /></td>
+<td><input type = "button" value = "MR" /></td>
+<td><input type = "button" value = "MS" /></td>
+<td><input type = "button" value = "M+" /></td>
+<td><input type = "button" value = "M-" /></td>
+</tr>
+<tr>
+<td><input type = "button" value = "(" /></td>
+<td><input type = "button" value = ")" /></td>
+<td><input type = "button" value= "B" id = "specialbutton3"  /></td>
+<td><input type = "button" value = "←" /></td>
+<td><input type = "button" value = "CE" /></td>
+<td><input type = "button" value = "C" /></td>
+<td><input type = "button" value = "±" /></td>
+<td><input type = "button" value = "√" /></td>
+</tr>
+<tr>
+<td><input type = "button" value = "RoL"/></td>
+<td><input type = "button" value = "RoR" /></td>
+<td><input type = "button" value = "C" id = "specialbutton3" /></td>
+<td><input type = "button" value = "7" /></td>
+<td><input type = "button" value = "8" /></td>
+<td><input type = "button" value = "9" /></td>
+<td><input type = "button" value = "/" /></td>
+<td><input type = "button" value = "%" /></td>
+</tr>
+<tr>
+<td><input type = "button" value = "Or" /></td>
+<td><input type = "button" value = "Xor" /></td>
+<td><input type = "button" value = "D" id = "specialbutton3" /></td>
+<td><input type = "button" value = "4" /></td>
+<td><input type = "button" value = "5" /></td>
+<td><input type = "button" value = "6" /></td>
+<td><input type = "button" value = "*" /></td>
+<td><input type = "button" value = "1/x" /></td>
+</tr>
+<tr>
+<td><input type = "button" value = "Lsh" /></td>
+<td><input type = "button" value = "Rsh" /></td>
+<td><input type = "button" value = "E" id = "specialbutton3" /></td>
+<td><input type = "button" value = "1" /></td>
+<td><input type = "button" value = "2" /></td>
+<td><input type = "button" value = "3" /></td>
+<td><input type = "button" value = "-" /></td>
+<td rowspan = "2"><input type = "button" id = "specialbutton2" value = "=" /></td>
+</tr>
+<tr>
+<td><input type = "button" value = "Not" /></td>
+<td><input type = "button" value = "And" /></td>
+<td><input type = "button" value = "F" id = "specialbutton3"/></td>
+<td colspan = "2"><input type = "button" id = "specialbutton1" value = "0" /></td>
+<td><input type = "button" value = "." id = "specialbutton3" /></td>
+<td><input type = "button" value = "+" /></td>
+</tr>
+</table>
+</form>
+</section>
+</body>
+</html>
