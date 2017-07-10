@@ -21,18 +21,11 @@ header {
 	padding: 0;
 }
 
-#inlineblock {
-	display: inline-block;
-}
 #textcolor {
 color: yellow;
 font-size: 20px;
 }
-#deletespace {
-	padding: 5px;
-	display: inline-block;
-	text-align: center;
-}
+
 input[type="text"] {
 	width: 140px;
 	height: 20px;
