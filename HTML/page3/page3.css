@@ -1,0 +1,48 @@
+img {
+	width: 120px;
+	height: 100px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 0px;
+}
+
+body {
+	background-color: #FAA526;
+}
+form {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+span {
+	padding-right: 30px;
+}
+header {
+	background-color: #B5B5B5;
+	padding: 0;
+}
+
+#inlineblock {
+	display: inline-block;
+}
+#textcolor {
+color: yellow;
+font-size: 20px;
+}
+#deletespace {
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+}
+input[type="text"] {
+	width: 140px;
+	height: 20px;
+}
+input[type = "button"] {
+	width:39px;
+height: 20px;
+background-color: red;
+	border-radius: 9px;
+	opacity: 0.9;
+	text-align: center;
+	color: white;
+}
