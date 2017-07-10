@@ -1,0 +1,22 @@
+body {
+	background: lightblue;
+}
+section {
+	border: 1px solid black;
+	background: white;
+	margin-bottom: 60px;
+}
+img {
+	width: 300px;
+	height: 250px;
+	text-align: left;
+	float: left;
+	border: 1px solid black;
+	margin-right: 15px;
+}
+section > article p {
+	text-align: justify;
+	display: inline-block;
+	margin: 25px;
+
+}
