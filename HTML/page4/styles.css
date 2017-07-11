@@ -1,0 +1,154 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+li {
+	display: block;
+}
+body {
+	width: 99%;
+}
+
+footer div	{
+	display: inline-block;
+}
+body nav ul li {
+	color:#1f1f14;
+	font-size: 20px;
+}
+body nav {
+	display: inline-block;
+}
+
+
+body aside {
+	width: 17%;
+	left: 81.9%;
+	position: absolute;
+	border: 1px dashed yellow;
+	display: inline-block;
+
+}
+body aside table {
+	border-style: dotted;
+	border-color: grey;
+	display: block;
+	border-bottom: none;
+}
+body nav input[type="button"] {
+	background-image: url("home.png");
+	background-size: contain;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	width: 22px;
+	display: inline-block;
+	 cursor: pointer;
+	
+}
+body {
+	background-color: lightblue;
+}
+
+body section {
+	background-color: white;
+	position: absolute;
+	left: 2%;
+}
+body nav h2 {
+	display: inline-block;
+}
+body section header h1 {
+	text-align: center;
+}
+input[type="button"] {
+background-color: white;
+border-color: black;
+width: 3cm;
+
+}
+body section header div {
+	display: inline-block;
+
+}
+body section footer {
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom: 40px;
+}
+body section h3 {
+	background-color: lightgrey;
+}
+div.image {
+	content:url("beauty.jpg");
+	float: left;
+	min-width: 200px;
+	min-height: 100px;
+	max-width: 300px;
+	max-height: 150px;
+	display: block;
+	position: relative;
+	margin-right: 9px;
+	
+}
+.removebottomborder {
+	border-bottom: none;
+}
+.listheaders {
+	font-size: 25px;
+	font-weight: bold;
+	color:  #B81212
+}
+
+#clearafter:before {
+	content: ""; 
+   display: inline-block; 
+    clear: right;
+
+}
+#shorterbutton {
+	width: 90%;
+}
+#helpbutton {
+	width: 30%;
+}
+#displayinline {
+	display: inline-block;
+}
+
+#mainbody {
+	margin-left: 15%;
+	width: 60%;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.clearafter {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+
+#navigation {
+	margin-right: 20px;
+	position: absolute;
+	left: 0%;
+	width: 14%;
+	margin-left: 15px;
+}
+#search {
+	position: absolute;
+	margin-left: 60%;
+	width: 14%;	
+}
+#bottomborder {
+	border-style: dotted;
+	border-color: grey;
+	display: block;
+}
