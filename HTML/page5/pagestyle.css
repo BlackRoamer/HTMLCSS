@@ -1,0 +1,59 @@
+header nav ul {
+	margin: 7px;
+	list-style: none;
+}
+body, header, nav, ul, li, div {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #1F3741;
+}
+header nav ul li {
+	display: inline-block;
+	margin-right: 0.2%;
+	border: 1px solid black;
+	width: 70px;
+	height: 35px;
+	text-align: center;
+	background-color: #c3c5c5;
+}
+body header nav ul li:hover {
+						text-decoration: underline;
+						background-color: #1F3741;
+						color: white;
+						cursor: default;
+}
+#section1 {
+	background-color: teal;
+	width: 42%;
+	display:inline-block;
+	float: left;
+	margin-left: 7px;
+}
+#section2 {
+	background-color: green;
+	width: 57%;
+	display:block;
+	float: right;
+}
+section h2 {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	display: inline-block;
+	width: 100%;
+}
+section article {
+	border-bottom: 1px solid black;
+	display: block;
+	width: 100%;
+}
+section div.image {
+	float: right;
+	position: absolute;
+	display: block;
+	content:url("news.jpg");
+	width: 30%;
+	height: 37%;
+	vertical-align: middle;
+}
